@@ -1,0 +1,288 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Craft</groupId>
+  <artifactId>Maven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+	<dependencies>
+	<!--  <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ojdbc6</artifactId>
+        <version>11.2.0.3</version>
+    </dependency>  -->
+ <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+ <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>24.1-jre</version>
+      </dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.0.0-beta-1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<!--<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>-->
+
+
+
+
+ 
+ 
+ <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+<dependency>
+    <groupId>org.apache.pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>2.0.8</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>4.4.3</version>
+</dependency>
+ 
+ 
+ <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.6.0</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver</artifactId>
+    <version>3.6.0</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.9.2</version>
+</dependency>
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.11.3</version>
+</dependency>
+ <!-- https://mvnrepository.com/artifact/us.codecraft/xsoup -->
+<dependency>
+    <groupId>us.codecraft</groupId>
+    <artifactId>xsoup</artifactId>
+    <version>0.3.1</version>
+</dependency>
+ 
+ <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver-core -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver-core</artifactId>
+    <version>3.6.0</version>
+</dependency>
+ 
+
+<!-- https://mvnrepository.com/artifact/org.clojure/java.jdbc  -->
+<!-- <dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc</artifactId>
+    <version>14</version>
+    <scope>system</scope>
+    <systemPath>${basedir}/OJDBC/ojdbc.jar</systemPath> 
+    <type>jar</type>
+  <optional>true</optional>
+  
+</dependency> --> 
+
+
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>1.19.4</version>
+</dependency>
+
+	
+
+	<!-- https://mvnrepository.com/artifact/bsh/bsh -->
+		<dependency>
+			<groupId>bsh</groupId>
+			<artifactId>bsh</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>itextpdf</artifactId>
+    <version>5.4.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>2.27</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-core</artifactId>
+    <version>1.19.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+<dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.54</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20151123</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.4</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+<dependency>
+    <groupId>com.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.14</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml-schemas</artifactId>
+    <version>3.14</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.0</version>
+    <scope>compile</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.6.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.xmlrpc/xmlrpc-client -->
+<dependency>
+    <groupId>org.apache.xmlrpc</groupId>
+    <artifactId>xmlrpc-client</artifactId>
+    <version>3.1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.xmlrpc/xmlrpc-common -->
+<dependency>
+    <groupId>org.apache.xmlrpc</groupId>
+    <artifactId>xmlrpc-common</artifactId>
+    <version>3.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+<dependency>
+    <groupId>com.sikulix</groupId>
+    <artifactId>sikulixapi</artifactId>
+    <version>2.0.4</version>
+</dependency>
+
+
+</dependencies>
+ <build>  
+ 
+ <plugins>  
+  <plugin>  
+   <groupId>org.codehaus.mojo</groupId>  
+   <artifactId>exec-maven-plugin</artifactId>  
+   <version>1.2</version>  
+   <executions>  
+    <execution>  
+     <phase>test</phase>  
+     <goals>  
+      <goal>java</goal>  
+     </goals>  
+     <configuration>  
+      <mainClass>allocator.Allocator</mainClass>  
+      <noExit>true</noExit>
+      <arguments>  
+      <!-- <argument>arg0</argument>  
+        <argument>arg1</argument>   -->
+      </arguments>  
+     </configuration>  
+    </execution>  
+   </executions>  
+  </plugin>  
+ </plugins>  
+</build>  
+
+
+ 
+
+</project>
